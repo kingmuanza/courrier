@@ -1,0 +1,196 @@
+@font-face {
+    font-family: keama;
+    src: url("../fonts/keama.ttf");
+}
+
+.keama_logo {
+    font-family: keama;
+}
+
+.muanza_bg_violet{
+    background-color: #310e31!important;
+}
+.tabcontrol .tabs {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none inside;
+    border-bottom: 2px orange solid!important;
+    white-space: nowrap;
+    overflow: visible;
+}
+.tabcontrol .tabs li.active a {
+    background-color: orange!important;
+    color: #ffffff;
+    text-shadow: none!important;
+}
+
+.tabcontrol .frames .frame {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 30px!important;
+    padding-top: 5px!important;
+    background-color: orange!important;
+}
+
+.tabcontrol .frames .frame label{
+    color: #fff!important;
+    font-weight: bold;
+}
+
+.muanza_fg_violet{
+    color: #310e31!important;
+}
+
+.tile-big:hover,
+.tile-large.wide-tile:hover,
+.tile:hover {
+    outline: #fa6800 solid 3px!important;
+}
+.muanza_border_tile{
+    outline: orange solid 2px!important;
+}
+table a{
+    color: #310e31!important;
+}
+
+#titre_liste{
+    color: #310e31!important;
+}
+
+#cell-sidebar{
+    background-color: orange!important;
+    height: 100vh!important;
+    overflow-x: hidden!important;
+}
+.li_muanza:hover{
+    background-color: rgba(250, 141, 0, 1)!important;
+    zoom: 105%;
+}
+
+.app-bar.muanza_bg_violet .app-bar-divider {
+    background-color: #411e41!important;
+}
+
+.app-bar.muanza_bg_violet .app-bar-element:hover,
+.app-bar.muanza_bg_violet .app-bar-menu > li:hover,
+.app-bar.muanza_bg_violet .app-bar-menu > li > a:hover,
+.app-bar.muanza_bg_violet .app-bar-element:active,
+.app-bar.muanza_bg_violet .app-bar-menu > li:active,
+.app-bar.muanza_bg_violet .app-bar-menu > li > a:active{
+    background-color: orange;
+}
+
+.keama_fixe {
+
+
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+
+.keama_milieu{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    width: 40vw;
+    min-height: 40vh;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.keama_h1 {
+    letter-spacing: 2px;
+}
+.keama_haut{
+    background-image: url("../img/keama_background.png");
+    height: 180px;
+}
+
+.keama_haut_texte{
+    padding-top: 40px ;
+    padding-left: 25px ;
+}
+
+table{
+    border: 0px solid #1b4e9c !important;
+}
+td {
+    border: 0px solid #1b4e9c !important;
+}
+
+th, td {
+    padding: 2px;
+    text-align: left;
+    border: 0px solid #aaa !important;
+}
+th {
+    background-color: none !important;
+    color: #444 !important;
+    border-bottom:  1px solid #aaa !important;
+}
+tr{
+    background: none !important;
+}
+tr:nth-child(even) {
+    background-color: #f0f0fa !important;
+}
+tbody tr:hover {
+    background-color: orange!important;
+    cursor: pointer;
+    color:white;
+}
+a.dt-button{
+    background: none !important;
+    border: none !important;
+    border-radius: 0;
+    background-color: orange !important;
+    border-bottom: 3px solid orange !important;
+    color :#fff !important;
+    font-size: 1.2em;
+}
+div#example_table_filter{
+    padding-bottom: 20px;
+    margin-top: 0px!important;
+}
+.dataTables_paginate.paging_simple_numbers{
+    padding-bottom: 20px;
+    margin-top: 0px!important;
+}
+a.paginate_button.current{
+    background: none !important;
+    border: none !important;
+    border-radius: 0;
+    background-color: orange !important;
+    color :#fff !important;
+}
+.menu_muanza a{
+    font-weight: bold!important;
+}
+
+
+/* width */
+ul::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+ul::-webkit-scrollbar-track {
+    background: orange; 
+}
+
+/* Handle */
+ul::-webkit-scrollbar-thumb {
+    background: rgb(255,135,0); 
+}
+
+/* Handle on hover */
+ul::-webkit-scrollbar-thumb:hover {
+    background: rgb(245,135,0); 
+}
+
+#mza_haut{
+    background-color: red!important;
+}
+
+

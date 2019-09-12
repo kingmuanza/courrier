@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/workspace?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">siatechnology</property>
+    <property name="hibernate.connection.password">siatechnology</property>
+    <property name="hibernate.generate_statistics">true</property>
+    <property name="show_sql">true</property>
+    <mapping class="net.keama.workspace.entity.Courrier"/>
+    <mapping class="net.keama.workspace.entity.Structure"/>
+    <mapping class="net.keama.workspace.entity.ImageLogo"/>
+    <mapping class="net.keama.workspace.entity.CourrierProcedure"/>
+    <mapping class="net.keama.workspace.entity.CourrierProcedureTache"/>
+    <mapping class="net.keama.workspace.entity.TacheDocument"/>
+    <mapping class="net.keama.workspace.entity.Utilisateur"/>
+    <mapping class="net.keama.workspace.entity.TacheEmploye"/>
+    <mapping class="net.keama.workspace.entity.Reunion"/>
+    <mapping class="net.keama.workspace.entity.Procedures"/>
+    <mapping class="net.keama.workspace.entity.CourrierFichier"/>
+    <mapping class="net.keama.workspace.entity.CourrierResponsableCommentaireFichier"/>
+    <mapping class="net.keama.workspace.entity.CourrierResponsable"/>
+    <mapping class="net.keama.workspace.entity.ReunionPoints"/>
+    <mapping class="net.keama.workspace.entity.SalleReunion"/>
+    <mapping class="net.keama.workspace.entity.Employe"/>
+    <mapping class="net.keama.workspace.entity.ReunionEmploye"/>
+    <mapping class="net.keama.workspace.entity.ReunionRapport"/>
+    <mapping class="net.keama.workspace.entity.CourrierResponsableCommentaire"/>
+    <mapping class="net.keama.workspace.entity.CourrierType"/>
+    <mapping class="net.keama.workspace.entity.Suggestion"/>
+    <mapping class="net.keama.workspace.entity.TacheProcedureEffectue"/>
+    <mapping class="net.keama.workspace.entity.TacheProcedure"/>
+    <mapping class="net.keama.workspace.entity.Message"/>
+    <mapping class="net.keama.workspace.entity.Entreprise"/>
+    <mapping class="net.keama.workspace.entity.Site"/>
+    <mapping class="net.keama.workspace.entity.EntreprisePartenaire"/>
+    <mapping class="net.keama.workspace.entity.InformationGeneraleEmploye"/>
+    <mapping class="net.keama.workspace.entity.Correspondant"/>
+    <mapping class="net.keama.workspace.entity.InformationGeneraleDocument"/>
+    <mapping class="net.keama.workspace.entity.ProcedureEffective"/>
+    <mapping class="net.keama.workspace.entity.Tache"/>
+    <mapping class="net.keama.workspace.entity.CourrierProcedureEnCours"/>
+    <mapping class="net.keama.workspace.entity.InformationGenerale"/>
+    <mapping class="net.keama.workspace.entity.TacheCommentaire"/>
+    <mapping class="net.keama.workspace.entity.MessageFichier"/>
+    <mapping class="net.keama.workspace.entity.Poste"/>
+    <mapping class="net.keama.workspace.entity.ProfilUtilisateur"/>
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="workspace"/>
+  <table-filter match-name="tache_commentaire"/>
+  <table-filter match-name="information_generale"/>
+  <table-filter match-name="courrier_procedure"/>
+  <table-filter match-name="poste"/>
+  <table-filter match-name="courrier_responsable_commentaire_fichier"/>
+  <table-filter match-name="salle_reunion"/>
+  <table-filter match-name="information_generale_document"/>
+  <table-filter match-name="tache_document"/>
+  <table-filter match-name="courrier_procedure_tache"/>
+  <table-filter match-name="courrier_fichier"/>
+  <table-filter match-name="site"/>
+  <table-filter match-name="reunion"/>
+  <table-filter match-name="courrier_procedure_en_cours"/>
+  <table-filter match-name="procedure_effective"/>
+  <table-filter match-name="tache"/>
+  <table-filter match-name="image_logo"/>
+  <table-filter match-name="entreprise_partenaire"/>
+  <table-filter match-name="employe"/>
+  <table-filter match-name="reunion_points"/>
+  <table-filter match-name="tache_employe"/>
+  <table-filter match-name="procedures"/>
+  <table-filter match-name="correspondant"/>
+  <table-filter match-name="courrier"/>
+  <table-filter match-name="message_fichier"/>
+  <table-filter match-name="message"/>
+  <table-filter match-name="reunion_rapport"/>
+  <table-filter match-name="reunion_employe"/>
+  <table-filter match-name="courrier_responsable"/>
+  <table-filter match-name="courrier_responsable_commentaire"/>
+  <table-filter match-name="courrier_type"/>
+  <table-filter match-name="tache_procedure_effectue"/>
+  <table-filter match-name="information_generale_employe"/>
+  <table-filter match-name="profil_utilisateur"/>
+  <table-filter match-name="utilisateur"/>
+  <table-filter match-name="tache_procedure"/>
+  <table-filter match-name="suggestion"/>
+  <table-filter match-name="entreprise"/>
+  <table-filter match-name="structure"/>
+</hibernate-reverse-engineering>
